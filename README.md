@@ -18,7 +18,7 @@ After gut tube patterning in early embryos, the cellular and molecular changes o
 - scRNASeq_cellchat.r : script of cell-cell interaction analysis using cellchat
 - scRNASeq_cellphoneDB.sh : script of cell-cell interaction analysis using cellphoneDB
 - stRNASeq_clustering.r : script of clustering and integration analysis of spatial RNASeq data
-- /Bulkseq_deseq2.r : script of bulk RNA-Seq data
+- Bulkseq_deseq2.r : script of bulk RNA-Seq data
 
 
 
