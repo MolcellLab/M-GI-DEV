@@ -11,13 +11,13 @@ After gut tube patterning in early embryos, the cellular and molecular changes o
 
 ## Content
 
-- /process_cellranger.sh : script of process of scRNASeq data using cellranger
-- /process_spaceranger.sh : script of process of spatial RNASeq data using spaceranger
-- /scRNASeq_clustering.r : script of union clustering of all 14 samples
-- /scRNASeq_monocle.r : script of trajectory inferencing analysis using monocle
-- /scRNASeq_cellchat.r : script of cell-cell interaction analysis using cellchat
-- /scRNASeq_cellphoneDB.sh : script of cell-cell interaction analysis using cellphoneDB
-- /stRNASeq_clustering.r : script of clustering and integration analysis of spatial RNASeq data
+- process_cellranger.sh : script of process of scRNASeq data using cellranger
+- process_spaceranger.sh : script of process of spatial RNASeq data using spaceranger
+- scRNASeq_clustering.r : script of union clustering of all 14 samples
+- scRNASeq_monocle.r : script of trajectory inferencing analysis using monocle
+- scRNASeq_cellchat.r : script of cell-cell interaction analysis using cellchat
+- scRNASeq_cellphoneDB.sh : script of cell-cell interaction analysis using cellphoneDB
+- stRNASeq_clustering.r : script of clustering and integration analysis of spatial RNASeq data
 - /Bulkseq_deseq2.r : script of bulk RNA-Seq data
 
 
