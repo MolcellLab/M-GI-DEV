@@ -9,7 +9,7 @@ library(RColorBrewer)
 library(pheatmap)
 library(reshape2)
 
-a1 <- Load10X_Spatial(data.dir = 'd://data_backup/sc_embryo/sp_a/', filename = 'filtered_feature_bc_matrix.h5', assay = "Spatial", slice = 'a1')
+a1 <- Load10X_Spatial(data.dir = 'opt/sp_a/', filename = 'filtered_feature_bc_matrix.h5', assay = "Spatial", slice = 'a1')
 a1$orig.ident <- 'a1'
 
 a1 <- PercentageFeatureSet(a1, pattern = "^mt-", col.name = "percent.mt")
