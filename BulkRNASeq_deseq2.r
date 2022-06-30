@@ -11,7 +11,7 @@ library(corrplot)
 library(org.Mm.eg.db)
 library(stringr)
 
-setwd('c://workstudio/embryo/bulk_seq/deseq2/')
+setwd('opt/bulk_seq/deseq2/')
 
 files <- dir('../data_v2/')
 samples <- c()
@@ -42,7 +42,7 @@ dds_all = DESeq(dds_all)
 counts_normalized = as.data.frame(counts(dds_all, normalized = T))
 
 #######################  diff between paires
-id_symbol <- read.table('d://workstudio2/resource/mm_id_name.txt', header = F, sep = '\t', stringsAsFactors = F, row.names = 1)
+id_symbol <- read.table(opt/resource/mm_id_name.txt', header = F, sep = '\t', stringsAsFactors = F, row.names = 1)
 
 deseq_fun(ct1 = "Fore_P3_HST", ct2 = "Fore_P6_HST", ex1 = "F4_RAF4", ex2 = "Fore_P7_RAF4", 
            pvl = 0.01, lfc = 1, file = "comp1")
