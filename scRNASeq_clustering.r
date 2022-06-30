@@ -1,4 +1,4 @@
-setwd('c://workstudio/embryo/union_14/')
+setwd('opt/union_14/')
 
 library(Seurat)
 library(ggplot2)
